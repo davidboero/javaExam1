@@ -1,0 +1,12 @@
+package exam;
+
+class Dog extends Animal {
+   public void move() {
+      System.out.println("Dogs can walk and run");
+   }
+   
+   @Override
+   public void bark() {
+      System.out.println("Dogs can bark");
+   }
+}
